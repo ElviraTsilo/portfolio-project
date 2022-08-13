@@ -105,7 +105,7 @@ h1 {
 }
 
 @media (max-width: 1199px) {
-  .text-content {
-    padding-top: 10px;
+  .btn-branding-content {
+    margin-top: 15px;
   }
 }
