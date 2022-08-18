@@ -74,29 +74,44 @@ h1 {
   padding: 160px 30px;
 }
 
-.about-content {
+.content {
   margin: 35px;
 }
 
-.about-content h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-content h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
 }
 
-.about-content p {
+.content p {
   font-size: 16px;
   line-height: 30px;
+}
+
+.container h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+.container p {
+  font-size: 14px;
 }
 
 @media (max-width: 992px) {
   h1 {
     font-size: 32px;
+  }
+
+  .content h1 {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
   }
 
   p {
@@ -123,9 +138,11 @@ h1 {
   .hero {
     padding: 80px 20px;
   }
+
   .hero h2 {
     font-size: 20px;
   }
+
   .container {
     padding: 0;
   }
@@ -133,10 +150,10 @@ h1 {
   .btn-branding {
     margin-top: 10px;
   }
-}
 
-@media (max-width: 1199px) {
-  .btn-branding-content {
-    margin-top: 15px;
+  @media (max-width: 1199px) {
+    .btn-branding-content {
+      margin-top: 15px;
+    }
   }
 }
