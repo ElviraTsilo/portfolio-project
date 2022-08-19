@@ -101,6 +101,17 @@ h1 {
   font-weight: bold;
 }
 
+.weather-project,
+.translation-project {
+  padding-top: 100px;
+}
+
+@media (max-width: 767px) {
+  .weather-project,
+  .translation-project {
+    padding-top: 0;
+  }
+}
 
 @media (max-width: 992px) {
   h1 {
