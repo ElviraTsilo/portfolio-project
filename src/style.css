@@ -20,7 +20,7 @@ h1 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -47,7 +47,7 @@ h4 {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .btn-branding {
@@ -70,9 +70,14 @@ h4 {
   line-height: 27px;
 }
 
+.content-container {
+  padding: 60px 20px;
+}
+
 .text-content {
   padding-top: 50px;
 }
+
 .content {
   margin: 35px;
 }
@@ -172,15 +177,19 @@ footer .social-links a {
   color: var(--branding-color);
   background-color: var(--secondary-color);
   padding: 10px 14px;
-  margin:  0 20px;
+  margin: 0 20px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover  {
+footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
+}
+
+footer p {
+  font-size: 14px;
 }
 
 @media (max-width: 767px) {
@@ -216,10 +225,6 @@ footer .social-links a:hover  {
     font-size: 22px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
-
   .hero h2 {
     font-size: 20px;
   }
@@ -232,9 +237,19 @@ footer .social-links a:hover  {
     margin-top: 10px;
   }
 
+  .content-container {
+    padding:  15px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
   @media (max-width: 1199px) {
     .btn-branding-content {
       margin-top: 15px;
     }
   }
-}
+
