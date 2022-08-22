@@ -11,13 +11,17 @@ body {
 
 p {
   padding-top: 30px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-family: var(--default-font-family);
 }
 
 h1 {
   font-size: 64px;
+}
+
+h4 {
+  font-size: 48px;
 }
 
 .hero h1 {
@@ -105,7 +109,7 @@ nav {
   padding: 20px 0;
 }
 
-nav ul  {
+nav ul {
   padding: 0;
   margin: 0;
 }
@@ -133,6 +137,52 @@ nav li:hover a {
 .logo {
   max-height: 40px;
 }
+
+footer {
+  margin: 60px 0;
+}
+
+footer .content-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .content-box p {
+  padding: 0;
+}
+
+footer .content-box .btn-branding {
+  margin-top: 15px;
+}
+
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  margin:  0 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover  {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 767px) {
   .weather-project,
   .translation-project {
