@@ -238,7 +238,7 @@ footer p {
   }
 
   .content-container {
-    padding:  15px;
+    padding: 15px;
   }
 
   .content h1 {
@@ -247,9 +247,8 @@ footer p {
   }
 }
 
-  @media (max-width: 1199px) {
-    .btn-branding-content {
-      margin-top: 15px;
-    }
+@media (max-width: 1199px) {
+  .btn-branding-content {
+    margin-top: 15px;
   }
-
+}
